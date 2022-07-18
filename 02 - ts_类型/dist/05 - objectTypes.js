@@ -1,10 +1,10 @@
 "use strict";
 // 定义必传参数类型
-function printCoord(pt) {
+function printObjectCoord(pt) {
     console.log('x值为：' + pt.x);
     console.log('y值为：' + pt.y);
 }
-printCoord({
+printObjectCoord({
     x: 22,
     y: 12,
 });
